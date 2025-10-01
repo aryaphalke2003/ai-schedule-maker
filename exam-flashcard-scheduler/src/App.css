@@ -1,0 +1,95 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.form {
+  margin-bottom: 40px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.section {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  color: #333;
+}
+
+.flashcard {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.subject {
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.day {
+  margin-bottom: 30px;
+}
+
+.day h3 {
+  color: #555;
+}
+
+.day ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.day li {
+  background-color: #e9ecef;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 3px;
+  color: #333;
+}
