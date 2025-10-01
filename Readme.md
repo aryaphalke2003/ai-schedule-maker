@@ -18,7 +18,7 @@ A React web application that allows users to upload an exam timetable (CSV forma
 ## Setup Instructions
 
 ### 1. Get OpenRouter API Key
-- Go to [OpenRouter](https://openrouter.ai/)
+- Go to [OpenRouter](https://openrouter.ai/x-ai/grok-4-fast:free/api)
 - Sign up/Sign in
 - Navigate to API Keys section
 - Generate a new API key
@@ -77,4 +77,4 @@ The timetable CSV must have exactly two columns:
 
 ## API Usage
 
-The app makes requests to OpenRouter's API using the Grok model (`xai/grok-beta`). Free credits may be available for personal use.
+The app makes requests to OpenRouter's API using the Grok model (`x-ai/grok-4-fast:free`). Free credits may be available for personal use.
